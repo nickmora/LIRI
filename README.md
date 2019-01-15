@@ -24,7 +24,7 @@ Enter `node liri.js spotify-this-song name of song goes here` into your command 
 If entered correctly, LIRI will prompt the user with the artist(s), the song name, the album name, and a link to listen to a preview of the song like so:
 
 ![screenshot1]
-(/images/spotify.png)
+(./images/spotify.png)
 
 *known error*: Song titles that have an apostrophe in them (') will cause a malfunction with the LIRI song search.  I'm pretty sure that this has something to do with LIRI reading the apostrophe as an opening single quote, then not being able to find the ending quote
 
@@ -35,7 +35,7 @@ Enter `node liri.js movie-this name of movie goes here` into your command line, 
 If entered correctly, LIRI will prompt the user with the movie title, the year it came out, the movie's rating on IMDB, the movie's rating on Rotten Tomatoes, the country/ies in which the movie was filmed, the language(s) spoken in the movie, a short summary of the plot, and a list of actors that appear in the movie like so:
 
 ![screenshot2]
-(/images/movie.png)
+(./images/movie.png)
 
 *known error*: movie titles that have an apostrophe in them (') will cause a malfunction with the LIRI song search.  I'm pretty sure that this has something to do with LIRI reading the apostrophe as an opening single quote, then not being able to find the ending quote
 
@@ -46,7 +46,7 @@ Enter `node liri.js concert-this name of artist goes here` into your command lin
 If entered correctly, LIRI will prompt the user with the venue, location, and date of the artist's next concert like so:
 
 ![screenshot3]
-(/images/concert.png)
+(./images/concert.png)
 
 *known error*: movie titles that have an apostrophe in them (') will cause a malfunction with the LIRI song search.  I'm pretty sure that this has something to do with LIRI reading the apostrophe as an opening single quote, then not being able to find the ending quote
 
@@ -54,7 +54,7 @@ If entered correctly, LIRI will prompt the user with the venue, location, and da
 Enter `node liri.js do-what-it-says` into your command line.  This will read the enclosed file `random.txt` and do what the command in the file says. `random.txt` is currently set up to spotify the song "I want it that way" by the backstreet boys.  You can replace the command in that file with any of the commands explained above and LIRI should be able to execute your command.  This is illustrated in the screenshot below:
 
 ![screenshot4]
-(/images/dothis.png)
+(./images/dothis.png)
 
 ### END
 
